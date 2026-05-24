@@ -1,83 +1,62 @@
-name: build addon
+name: Build and Release Addon
 
 on:
   push:
-    tags: ["*"]
-    branches: [ main , master ]
-
-  pull_request:
     branches: [ main, master ]
-
   workflow_dispatch:
-  workflow_call:
 
 jobs:
-  build:
-    # Building the add-on template as an add-on does not make sense (and fails).
-    # Do not modify this repo name with your own one! (should remain the template)
-    if: github.repository != 'nvaccess/addonTemplate'
-
+  build-and-release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
     - name: Install uv
-      uses: astral-sh/setup-uv@v7
+      uses: astral-sh/setup-uv@v5
       with:
         enable-cache: true
+
     - name: Install dependencies
       run: |
-        sudo apt-get update  -y
+        sudo apt-get update -y
         sudo apt-get install -y gettext
         uv sync
 
     - name: Code checks
-      run: export SKIP=no-commit-to-branch,pyright; uv run pre-commit run --all-files
-
-    - name: building addon
-      run: uv run scons && uv run scons pot
-
-    - uses: actions/upload-artifact@v7
-      with:
-        name: packaged_addon
-        path: |
-          ./*.nvda-addon
-        archive: false
-
-    - uses: actions/upload-artifact@v7
-      with:
-        name: translation_template
-        path: |
-          ./*.pot
-        archive: false
-
-  upload_release:
-    runs-on: ubuntu-latest
-    if: ${{ startsWith(github.ref, 'refs/tags/') }}
-    needs: ["build"]
-    permissions:
-      contents: write
-    steps:
-    - uses: actions/checkout@v6
-    - name: download all artifacts
-      uses: actions/download-artifact@v8
-      with:
-        path: .
-        merge-multiple: true
-    - name: Display structure of downloaded files
-      run: ls -R
-    - name: Calculate sha256
       run: |
-        echo -e "\nSHA256: " >> changelog.md
-        sha256sum *.nvda-addon >> changelog.md
+        export SKIP=no-commit-to-branch,pyright
+        uv run pre-commit run --all-files
 
-    - name: Release
-      uses: softprops/action-gh-release@v3
+    - name: Build addon
+      run: |
+        uv run scons
+        uv run scons pot
+
+    - name: Generate tag and release info
+      id: release_info
+      run: |
+        TAG_NAME=$(date +'%Y-%m-%d_%H-%M')
+        echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+
+    - name: Create and push tag
+      run: |
+        git config --local user.name 'github-actions'
+        git config --local user.email 'github-actions@github.com'
+        git tag ${{ env.TAG_NAME }}
+        git push "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" ${{ env.TAG_NAME }}
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
       with:
+        tag_name: ${{ env.TAG_NAME }}
+        name: Version ${{ env.TAG_NAME }}
         files: |
-          *.nvda-addon
-          *.pot
-        body_path: changelog.md
+          ./*.nvda-addon
+          ./*.pot
         fail_on_unmatched_files: true
-        prerelease: ${{ contains(github.ref, '-') }}
