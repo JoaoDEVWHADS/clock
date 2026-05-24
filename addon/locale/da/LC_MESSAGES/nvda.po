@@ -435,3 +435,71 @@ msgstr ""
 #~ "\t\tSpacebar: Speaks current stopwatch or count-down timer.\n"
 #~ "\t\tH: Vis en liste over alle lagdelte kommandoer(Hjælp).\n"
 #~ "\t\t"
+
+msgid "Update Available - Clock"
+msgstr "Opdatering tilgængelig - Ur"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "En ny version af Ur er tilgængelig!\n"
+"\n"
+"Nuværende version: {current}\n"
+"Ny version: {new}\n"
+"\n"
+"Klik på 'Download og installer' for at opdatere automatisk."
+
+msgid "Release: {}"
+msgstr "Udgivelse: {}"
+
+msgid "&Download and Install"
+msgstr "&Download og installer"
+
+msgid "&Close"
+msgstr "&Luk"
+
+msgid "Downloading update... Please wait."
+msgstr "Downloader opdatering... Vent venligst."
+
+msgid "Error: Failed to download update"
+msgstr "Fejl: Kunne ikke downloade opdatering"
+
+msgid "Error: Failed to install update"
+msgstr "Fejl: Kunne ikke installere opdatering"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Fejl: Opdatering mislykkedes. Kontroller NVDA-loggen for detaljer."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Opdatering installeret! NVDA skal genstartes."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Ur er blevet opdateret til version {version}.\n"
+"\n"
+"NVDA skal genstartes for at opdateringen træder i kraft.\n"
+"\n"
+"Genstart NVDA nu?"
+
+msgid "Update Installed"
+msgstr "Opdatering installeret"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Opdatering mislykkedes, da filer er i brug.\n"
+"\n"
+"Genstart NVDA og prøv at opdatere med det samme,\n"
+"\n"
+"UDEN at åbne eklentindstillingerne."
+
+msgid "Update Failed - Files Locked"
+msgstr "Opdatering mislykkedes - Filer låst"

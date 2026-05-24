@@ -506,3 +506,71 @@ msgstr ""
 
 #~ msgid "Day %j, week %W of %Y."
 #~ msgstr "Dzień %j, tydzień %W z %Y."
+
+msgid "Update Available - Clock"
+msgstr "Dostępna aktualizacja - Zegar"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Nowa wersja Zegara jest dostępna!\n"
+"\n"
+"Bieżąca wersja: {current}\n"
+"Nowa wersja: {new}\n"
+"\n"
+"Kliknij 'Pobierz i zainstaluj', aby zaktualizować automatycznie."
+
+msgid "Release: {}"
+msgstr "Wydanie: {}"
+
+msgid "&Download and Install"
+msgstr "&Pobierz i zainstaluj"
+
+msgid "&Close"
+msgstr "&Zamknij"
+
+msgid "Downloading update... Please wait."
+msgstr "Pobieranie aktualizacji... Proszę czekać."
+
+msgid "Error: Failed to download update"
+msgstr "Błąd: Nie udało się pobrać aktualizacji"
+
+msgid "Error: Failed to install update"
+msgstr "Błąd: Nie udało się zainstalować aktualizacji"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Błąd: Aktualizacja nie powiodła się. Sprawdź logi NVDA, aby poznać szczegóły."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Aktualizacja zainstalowana pomyślnie! NVDA musi zostać uruchomiony ponownie."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Zegar został zaktualizowany do wersji {version}.\n"
+"\n"
+"NVDA musi zostać uruchomiony ponownie, aby aktualizacja odniosła skutek.\n"
+"\n"
+"Uruchomić NVDA ponownie teraz?"
+
+msgid "Update Installed"
+msgstr "Aktualizacja zainstalowana"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Aktualizacja nie powiodła się, ponieważ pliki są w użyciu.\n"
+"\n"
+"Uruchom ponownie NVDA i spróbuj zaktualizować natychmiast,\n"
+"\n"
+"BEZ otwierania ustawień dodatku."
+
+msgid "Update Failed - Files Locked"
+msgstr "Aktualizacja nie powiodła się - zablokowane pliki"

@@ -369,3 +369,71 @@ msgstr ""
 "립니다. \n"
 "다른 도움이 필요하다면 '추가기능 관리'의 '도움말' 버튼으로 문서를 확인할 수 "
 "있습니다."
+
+msgid "Update Available - Clock"
+msgstr "업데이트 가능 - 시계"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "시계의 새 버전이 출시되었습니다!\n"
+"\n"
+"현재 버전: {current}\n"
+"새 버전: {new}\n"
+"\n"
+"자동 업데이트를 하려면 '다운로드 및 설치'를 클릭하십시오."
+
+msgid "Release: {}"
+msgstr "릴리스: {}"
+
+msgid "&Download and Install"
+msgstr "다운로드 및 설치(&D)"
+
+msgid "&Close"
+msgstr "닫기(&C)"
+
+msgid "Downloading update... Please wait."
+msgstr "업데이트 다운로드 중... 잠시만 기다려 주십시오."
+
+msgid "Error: Failed to download update"
+msgstr "오류: 업데이트 다운로드 실패"
+
+msgid "Error: Failed to install update"
+msgstr "오류: 업데이트 설치 실패"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "오류: 업데이트 실패. 자세한 내용은 NVDA 로그를 확인하십시오."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "업데이트가 성공적으로 설치되었습니다! NVDA를 재시작해야 합니다."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "시계가 {version} 버전으로 업데이트되었습니다.\n"
+"\n"
+"업데이트를 적용하려면 NVDA를 재시작해야 합니다.\n"
+"\n"
+"지금 NVDA를 재시작하시겠습니까?"
+
+msgid "Update Installed"
+msgstr "업데이트 설치됨"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "파일이 사용 중이므로 업데이트에 실패했습니다.\n"
+"\n"
+"NVDA를 재시작하고 부가 기능 설정을 열지 않은 채\n"
+"\n"
+"즉시 업데이트를 다시 시도하십시오."
+
+msgid "Update Failed - Files Locked"
+msgstr "업데이트 실패 - 파일 잠김"

@@ -373,3 +373,71 @@ msgstr ""
 "NVDA+F12 pritisnuto tri puta brzo, prijavljuje trenutni dan, broj nedelje, "
 "trenutnu godinu i broj dana do kraja godine.\n"
 "Za dodatna uputstva, pritisnite dugme pomoć dodatka u upravljaču dodacima."
+
+msgid "Update Available - Clock"
+msgstr "Ажурирање је доступно - Сат"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Нова верзија Сата је доступна!\n"
+"\n"
+"Тренутна верзија: {current}\n"
+"Нова верзија: {new}\n"
+"\n"
+"Кликните на 'Преузми и инсталирай' за аутоматско ажурирање."
+
+msgid "Release: {}"
+msgstr "Издање: {}"
+
+msgid "&Download and Install"
+msgstr "&Преузми и инсталирај"
+
+msgid "&Close"
+msgstr "&Затвори"
+
+msgid "Downloading update... Please wait."
+msgstr "Преузимање ажурирања... Молимо сачекајте."
+
+msgid "Error: Failed to download update"
+msgstr "Грешка: Преузимање ажурирања није успело"
+
+msgid "Error: Failed to install update"
+msgstr "Грешка: Инсталација ажурирања није успела"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Грешка: Ажурирање није успело. Проверите NVDA дневник за детаље."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Ажурирање је успешно инсталирано! NVDA се мора поново покренути."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Сат је ажуриран на верзију {version}.\n"
+"\n"
+"NVDA се мора поново покренути да би ажурирање ступило на снагу.\n"
+"\n"
+"Поново покренути NVDA сада?"
+
+msgid "Update Installed"
+msgstr "Ажурирање инсталирано"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Ажурирање није успело јер су датотеке у употреби.\n"
+"\n"
+"Поново покрените NVDA и покушајте да ажурирате одмах,\n"
+"\n"
+"БЕЗ отварања подешавања додатка."
+
+msgid "Update Failed - Files Locked"
+msgstr "Ажурирање није успело - датотеке су закључане"

@@ -435,3 +435,71 @@ msgstr "Edistynyt kello ja kalenteri NVDA:lle.\n"
 "NVDA+F12 kolmesti painettaessa: puhuu nykyisen päivän, viikon numeron, kuluvan vuoden sekä sen jäljellä olevien päivien määrän.\n"
 "Muita ohjeita saat painamalla Lisäosien hallinnassa Ohje-painiketta."
 
+
+msgid "Update Available - Clock"
+msgstr "Päivitys saatavilla - Kello"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Uusi versio Kellosta on saatavilla!\n"
+"\n"
+"Nykyinen versio: {current}\n"
+"Uusi versio: {new}\n"
+"\n"
+"Napsauta 'Lataa ja asenna' päivittääksesi automaattisesti."
+
+msgid "Release: {}"
+msgstr "Julkaisu: {}"
+
+msgid "&Download and Install"
+msgstr "&Lataa ja asenna"
+
+msgid "&Close"
+msgstr "&Sulje"
+
+msgid "Downloading update... Please wait."
+msgstr "Ladataan päivitystä... Odota hetki."
+
+msgid "Error: Failed to download update"
+msgstr "Virhe: Päivityksen lataus epäonnistui"
+
+msgid "Error: Failed to install update"
+msgstr "Virhe: Päivityksen asennus epäonnistui"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Virhe: Päivitys epäonnistui. Katso lisätietoja NVDA-lokista."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Päivitys asennettu onnistuneesti! NVDA on käynnistettävä uudelleen."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Kello on päivitetty versioon {version}.\n"
+"\n"
+"NVDA on käynnistettävä uudelleen, jotta päivitys tulee voimaan.\n"
+"\n"
+"Käynnistetäänkö NVDA uudelleen nyt?"
+
+msgid "Update Installed"
+msgstr "Päivitys Asennettu"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Päivitys epäonnistui, koska tiedostoja on käytössä.\n"
+"\n"
+"Käynnistä NVDA uudelleen ja yritä päivitystä heti,\n"
+"\n"
+"Avaamatta lisäosan asetuksia."
+
+msgid "Update Failed - Files Locked"
+msgstr "Päivitys epäonnistui - Tiedostot lukittu"

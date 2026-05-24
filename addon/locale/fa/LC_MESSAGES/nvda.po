@@ -376,3 +376,71 @@ msgstr ""
 "سال سه بار بفشارید.\n"
 "برای دستیابی به کارکردهای دیگر، دکمه‌ی راهنمای افزونه را در مدیرِ افزونه‌ها "
 "فشار دهید."
+
+msgid "Update Available - Clock"
+msgstr "به‌روزرسانی در دسترس است - ساعت"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "نسخه جدیدی از ساعت در دسترس است!\n"
+"\n"
+"نسخه فعلی: {current}\n"
+"نسخه جدید: {new}\n"
+"\n"
+"برای به‌روزرسانی خودکار روی 'دانلود و نصب' کلیک کنید."
+
+msgid "Release: {}"
+msgstr "نسخه انتشار: {}"
+
+msgid "&Download and Install"
+msgstr "&دانلود و نصب"
+
+msgid "&Close"
+msgstr "&بستن"
+
+msgid "Downloading update... Please wait."
+msgstr "در حال دانلود به‌روزرسانی... لطفا منتظر بمانید."
+
+msgid "Error: Failed to download update"
+msgstr "خطا: دانلود به‌روزرسانی ناموفق بود"
+
+msgid "Error: Failed to install update"
+msgstr "خطا: نصب به‌روزرسانی ناموفق بود"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "خطا: به‌روزرسانی ناموفق بود. گزارش NVDA را برای جزئیات بررسی کنید."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "به‌روزرسانی با موفقیت نصب شد! NVDA باید راه‌اندازی مجدد شود."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "ساعت به نسخه {version} به‌روزرسانی شد.\n"
+"\n"
+"برای اعمال تغییرات، NVDA باید راه‌اندازی مجدد شود.\n"
+"\n"
+"راه‌اندازی مجدد NVDA در حال حاضر؟"
+
+msgid "Update Installed"
+msgstr "به‌روزرسانی نصب شد"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "به‌روزرسانی ناموفق بود زیرا فایل‌ها در حال استفاده هستند.\n"
+"\n"
+"لطفاً NVDA را راه‌اندازی مجدد کنید و بلافاصله اقدام به به‌روزرسانی کنید،\n"
+"\n"
+"بدون باز کردن تنظیمات افزونه."
+
+msgid "Update Failed - Files Locked"
+msgstr "به‌روزرسانی ناموفق بود - فایل‌ها قفل هستند"

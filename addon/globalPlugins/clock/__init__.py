@@ -37,6 +37,7 @@ from configobj.validate import VdtTypeError
 import addonHandler
 addonHandler.initTranslation()
 _: Callable[[str], str]
+from .updateChecker import UpdateChecker, show_update_dialog, CURRENT_VERSION
 
 confspec = {
 	'timeDisplayFormat': 'integer(default=0)',
@@ -236,6 +237,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			("p", self.script_stopLongAlarm),
 			("h", self.script_getHelp)
 		)
+		self.update_checker = UpdateChecker(
+			on_update_available_callback=self._on_update_available
+		)
+		self.update_checker.start()
+
+	def _on_update_available(self, version, download_url, release_info):
+		"""Callback chamado quando uma atualização está disponível."""
+		show_update_dialog(CURRENT_VERSION, version, download_url, release_info)
 
 	def terminate(self):
 		super().terminate()

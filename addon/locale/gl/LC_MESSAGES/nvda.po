@@ -374,3 +374,71 @@ msgstr ""
 "semana, o ano actual e os días restantes antes do final de ano.\n"
 "Para outras instrucións, preme o botón Axuda do complemento no Administrador "
 "de complementos."
+
+msgid "Update Available - Clock"
+msgstr "Actualización dispoñible - Reloxo"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "¡Unha nova versión de Reloxo está dispoñible!\n"
+"\n"
+"Versión actual: {current}\n"
+"Versión nova: {new}\n"
+"\n"
+"Fai clic en 'Descargar e Instalar' para actualizar automaticamente."
+
+msgid "Release: {}"
+msgstr "Versión: {}"
+
+msgid "&Download and Install"
+msgstr "&Descargar e Instalar"
+
+msgid "&Close"
+msgstr "&Pechar"
+
+msgid "Downloading update... Please wait."
+msgstr "Descargando actualización... Por favor, agarda."
+
+msgid "Error: Failed to download update"
+msgstr "Erro: fallo ao descargar a actualización"
+
+msgid "Error: Failed to install update"
+msgstr "Erro: fallo ao instalar a actualización"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Erro: fallo na actualización. Consulta o log de NVDA para máis detalles."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "¡Actualización instalada con éxito! NVDA debe reiniciarse."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Reloxo actualizouse á versión {version}.\n"
+"\n"
+"NVDA debe reiniciarse para que os cambios teñan efecto.\n"
+"\n"
+"¿Reiniciar NVDA agora?"
+
+msgid "Update Installed"
+msgstr "Actualización Instalada"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "A actualización fallou porque os arquivos están en uso.\n"
+"\n"
+"Por favor, REINICIA NVDA e intenta actualizar inmediatamente,\n"
+"\n"
+"SEN abrir a configuración do complemento."
+
+msgid "Update Failed - Files Locked"
+msgstr "A actualización fallou - arquivos bloqueados"

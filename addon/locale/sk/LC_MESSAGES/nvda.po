@@ -432,3 +432,71 @@ msgstr ""
 #~ "\t\tSpacebar: Oznamuje aktuálne meraný čas.\n"
 #~ "\t\tH: Zoznam všetkých príkazov (Pomoc).\n"
 #~ "\t\t"
+
+msgid "Update Available - Clock"
+msgstr "Dostupná aktualizácia - Hodiny"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Je k dispozícii nová verzia Hodín!\n"
+"\n"
+"Aktuálna verzia: {current}\n"
+"Nová verzia: {new}\n"
+"\n"
+"Kliknutím na 'Stiahnuť a nainštalovať' aktualizujete automaticky."
+
+msgid "Release: {}"
+msgstr "Vydanie: {}"
+
+msgid "&Download and Install"
+msgstr "&Stiahnuť a nainštalovať"
+
+msgid "&Close"
+msgstr "&Zatvoriť"
+
+msgid "Downloading update... Please wait."
+msgstr "Sťahuje sa aktualizácia... Čakajte prosím."
+
+msgid "Error: Failed to download update"
+msgstr "Chyba: Stiahnutie aktualizácie zlyhalo"
+
+msgid "Error: Failed to install update"
+msgstr "Chyba: Inštalácia aktualizácie zlyhala"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Chyba: Aktualizácia zlyhala. Podrobnosti nájdete v logu NVDA."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Aktualizácia úspešne nainštalovaná! NVDA je potrebné reštartovať."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Hodiny boli aktualizované na verziu {version}.\n"
+"\n"
+"NVDA musí byť reštartovaný, aby sa aktualizácia prejavila.\n"
+"\n"
+"Reštartovať NVDA teraz?"
+
+msgid "Update Installed"
+msgstr "Aktualizácia nainštalovaná"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Aktualizácia zlyhala, pretože súbory sa používajú.\n"
+"\n"
+"Reštartujte NVDA a skúste aktualizovať okamžite,\n"
+"\n"
+"BEZ otvárania nastavení doplnku."
+
+msgid "Update Failed - Files Locked"
+msgstr "Aktualizácia zlyhala - súbory sú blokované"

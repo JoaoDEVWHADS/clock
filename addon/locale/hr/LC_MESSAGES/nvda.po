@@ -378,3 +378,71 @@ msgstr ""
 "NVDA+F12 pritisnut tri puta brzo, izgovara trenutačni dan, broj tjedna, "
 "trenutačnu godinu i preostale dane do kraja godine.\n"
 "Za ostale upute pritisni gumb pomoć dodatka u upravljaču dodataka."
+
+msgid "Update Available - Clock"
+msgstr "Ažuriranje je dostupno - Sat"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Nova verzija eklentija Sat je dostupna!\n"
+"\n"
+"Trenutna verzija: {current}\n"
+"Nova verzija: {new}\n"
+"\n"
+"Kliknite na 'Preuzmi i instaliraj' za automatsko ažuriranje."
+
+msgid "Release: {}"
+msgstr "Izdanje: {}"
+
+msgid "&Download and Install"
+msgstr "&Preuzmi i instaliraj"
+
+msgid "&Close"
+msgstr "&Zatvori"
+
+msgid "Downloading update... Please wait."
+msgstr "Preuzimanje ažuriranja... Molimo pričekajte."
+
+msgid "Error: Failed to download update"
+msgstr "Pogreška: Preuzimanje ažuriranja nije uspjelo"
+
+msgid "Error: Failed to install update"
+msgstr "Pogreška: Instalacija ažuriranja nije uspjela"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Pogreška: Ažuriranje nije uspjelo. Provjerite dnevnik NVDA za detalje."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Ažuriranje je uspješno instalirano! NVDA se mora ponovno pokrenuti."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Eklentij Sat je ažuriran na verziju {version}.\n"
+"\n"
+"NVDA se mora ponovno pokrenuti kako bi ažuriranje stupilo na snagu.\n"
+"\n"
+"Ponovno pokrenuti NVDA sada?"
+
+msgid "Update Installed"
+msgstr "Ažuriranje instalirano"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Ažuriranje nije uspjelo jer su datoteke u upotrebi.\n"
+"\n"
+"Ponovno pokrenite NVDA i pokušajte ponovno ažurirati odmah,\n"
+"\n"
+"BEZ otvaranja postavki eklentija."
+
+msgid "Update Failed - Files Locked"
+msgstr "Ažuriranje nije uspjelo - Datoteke su zaključane"

@@ -414,3 +414,71 @@ msgstr ""
 
 #~ msgid "Choose the type of timer &inputs before the alarm rings:"
 #~ msgstr "Chọn kiểu thời gian "
+
+msgid "Update Available - Clock"
+msgstr "Có bản cập nhật - Đồng hồ"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Đã có phiên bản mới của Đồng hồ!\n"
+"\n"
+"Phiên bản hiện tại: {current}\n"
+"Phiên bản mới: {new}\n"
+"\n"
+"Nhấp vào 'Tải xuống và Cài đặt' để tự động cập nhật."
+
+msgid "Release: {}"
+msgstr "Bản phát hành: {}"
+
+msgid "&Download and Install"
+msgstr "&Tải xuống và Cài đặt"
+
+msgid "&Close"
+msgstr "&Đóng"
+
+msgid "Downloading update... Please wait."
+msgstr "Đang tải xuống bản cập nhật... Vui lòng đợi."
+
+msgid "Error: Failed to download update"
+msgstr "Lỗi: Không tải được bản cập nhật"
+
+msgid "Error: Failed to install update"
+msgstr "Lỗi: Không cài được bản cập nhật"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Lỗi: Cập nhật thất bại. Kiểm tra nhật ký NVDA để biết chi tiết."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Cập nhật thành công! NVDA cần khởi động lại."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Đồng hồ đã được cập nhật lên phiên bản {version}.\n"
+"\n"
+"NVDA phải được khởi động lại để bản cập nhật có hiệu lực.\n"
+"\n"
+"Khởi động lại NVDA bây giờ?"
+
+msgid "Update Installed"
+msgstr "Bản cập nhật đã được cài đặt"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Cập nhật thất bại vì các tệp tin đang được sử dụng.\n"
+"\n"
+"Vui lòng KHỞI ĐỘNG LẠI NVDA và thử cập nhật ngay lập tức,\n"
+"\n"
+"mà KHÔNG mở cài đặt tiện ích."
+
+msgid "Update Failed - Files Locked"
+msgstr "Cập nhật thất bại - Tệp tin bị khóa"

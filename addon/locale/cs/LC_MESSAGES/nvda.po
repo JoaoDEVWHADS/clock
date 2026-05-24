@@ -446,3 +446,71 @@ msgstr ""
 #~ "\t\tSpacebar: Oznamuje aktuálne meraný čas.\n"
 #~ "\t\tH: Zoznam všetkých príkazov (Pomoc).\n"
 #~ "\t\t"
+
+msgid "Update Available - Clock"
+msgstr "Dostupná aktualizace - Hodiny"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Je k dispozici nová verze Hodin!\n"
+"\n"
+"Aktuální verze: {current}\n"
+"Nová verze: {new}\n"
+"\n"
+"Kliknutím na 'Stáhnout a nainstalovat' aktualizujete automaticky."
+
+msgid "Release: {}"
+msgstr "Vydání: {}"
+
+msgid "&Download and Install"
+msgstr "&Stáhnout a nainstalovat"
+
+msgid "&Close"
+msgstr "&Zavřít"
+
+msgid "Downloading update... Please wait."
+msgstr "Stahuje se aktualizace... Čekejte prosím."
+
+msgid "Error: Failed to download update"
+msgstr "Chyba: Stažení aktualizace se nezdařilo"
+
+msgid "Error: Failed to install update"
+msgstr "Chyba: Instalace aktualizace se nezdařila"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Chyba: Aktualizace se nezdařila. Podrobnosti naleznete v logu NVDA."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Aktualizace úspěšně nainstalována! NVDA je třeba restartovat."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Hodiny byly aktualizovány na verzi {version}.\n"
+"\n"
+"NVDA musí být restartován, aby se aktualizace projevila.\n"
+"\n"
+"Restartovat NVDA nyní?"
+
+msgid "Update Installed"
+msgstr "Aktualizace nainstalována"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Aktualizace selhala, protože soubory jsou používány.\n"
+"\n"
+"Restartujte NVDA a zkuste aktualizovat okamžitě,\n"
+"\n"
+"BEZ otevírání nastavení doplňku."
+
+msgid "Update Failed - Files Locked"
+msgstr "Aktualizace selhala - soubory jsou blokovány"

@@ -411,3 +411,71 @@ msgstr ""
 
 #~ msgid "Choose the type of timer &inputs before the alarm rings:"
 #~ msgstr "Válassza ki az időzítés &egységét"
+
+msgid "Update Available - Clock"
+msgstr "Frissítés érhető el - Óra"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Új verzió érhető el az Óra eklentiből!\n"
+"\n"
+"Jelenlegi verzió: {current}\n"
+"Új verzió: {new}\n"
+"\n"
+"Kattintson a 'Letöltés és telepítés' gombra az automatikus frissítéshez."
+
+msgid "Release: {}"
+msgstr "Verzió: {}"
+
+msgid "&Download and Install"
+msgstr "&Letöltés és telepítés"
+
+msgid "&Close"
+msgstr "&Bezárás"
+
+msgid "Downloading update... Please wait."
+msgstr "Frissítés letöltése... Kérjük, várjon."
+
+msgid "Error: Failed to download update"
+msgstr "Hiba: A frissítés letöltése sikertelen"
+
+msgid "Error: Failed to install update"
+msgstr "Hiba: A frissítés telepítése sikertelen"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Hiba: A frissítés sikertelen. Ellenőrizze a logfájlt a részletekért."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "A frissítés sikeresen telepítve! Az NVDA újraindítása szükséges."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Az Óra frissítve lett a(z) {version} verzióra.\n"
+"\n"
+"Az NVDA-t újra kell indítani a frissítés érvénybelépéséhez.\n"
+"\n"
+"Újraindítja most az NVDA-t?"
+
+msgid "Update Installed"
+msgstr "Frissítés telepítve"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "A frissítés nem sikerült, mert a fájlok használatban vannak.\n"
+"\n"
+"Kérjük, indítsa újra az NVDA-t, és próbálja meg a frissítést azonnal,\n"
+"\n"
+"az eklenti beállításainak megnyitása nélkül."
+
+msgid "Update Failed - Files Locked"
+msgstr "Frissítés sikertelen - zárolt fájlok"

@@ -435,3 +435,71 @@ msgstr ""
 #~ "inverse.\n"
 #~ "\t\tH: Listează toate comenzile stratificate (Ajutor).\n"
 #~ "\t\t"
+
+msgid "Update Available - Clock"
+msgstr "Actualizare disponibilă - Ceas"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "O nouă versiune de Ceas este disponibilă!\n"
+"\n"
+"Versiunea curentă: {current}\n"
+"Versiunea nouă: {new}\n"
+"\n"
+"Faceți clic pe 'Descărcați și instalați' pentru a actualiza automat."
+
+msgid "Release: {}"
+msgstr "Versiune: {}"
+
+msgid "&Download and Install"
+msgstr "&Descărcați și instalați"
+
+msgid "&Close"
+msgstr "&Închide"
+
+msgid "Downloading update... Please wait."
+msgstr "Se descarcă actualizarea... Vă rugăm să așteptați."
+
+msgid "Error: Failed to download update"
+msgstr "Eroare: Descărcarea actualizării a eșuat"
+
+msgid "Error: Failed to install update"
+msgstr "Eroare: Instalarea actualizării a eșuat"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Eroare: Actualizarea a eșuat. Verificați jurnalul NVDA pentru detalii."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Actualizarea a fost instalată cu succes! NVDA trebuie să se repornească."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Ceas a fost actualizat la versiunea {version}.\n"
+"\n"
+"NVDA trebuie repornit pentru ca actualizarea să aibă efect.\n"
+"\n"
+"Reporniți NVDA acum?"
+
+msgid "Update Installed"
+msgstr "Actualizare instalată"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Actualizarea a eșuat deoarece fișierele sunt în uz.\n"
+"\n"
+"Vă rugăm să REPORNIȚI NVDA și să încercați actualizarea imediat,\n"
+"\n"
+"fără a deschide setările suplimentului."
+
+msgid "Update Failed - Files Locked"
+msgstr "Actualizare eșuată - Fișiere blocate"

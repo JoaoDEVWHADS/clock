@@ -408,3 +408,71 @@ msgstr ""
 
 #~ msgid "Choose the type of timer &inputs before the alarm rings:"
 #~ msgstr "अलार्म बजने से पहले टाइमर  का प्रकार  &inputs चुनें:"
+
+msgid "Update Available - Clock"
+msgstr "अपडेट उपलब्ध है - घड़ी"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "घड़ी का एक नया संस्करण उपलब्ध है!\n"
+"\n"
+"वर्तमान संस्करण: {current}\n"
+"नया संस्करण: {new}\n"
+"\n"
+"स्वचालित रूप से अपडेट करने के लिए 'डाउनलोड और इंस्टॉल' पर क्लिक करें।"
+
+msgid "Release: {}"
+msgstr "रिलीज़: {}"
+
+msgid "&Download and Install"
+msgstr "&डाउनलोड और इंस्टॉल"
+
+msgid "&Close"
+msgstr "&बंद करें"
+
+msgid "Downloading update... Please wait."
+msgstr "अपडेट डाउनलोड हो रहा है... कृपया प्रतीक्षा करें।"
+
+msgid "Error: Failed to download update"
+msgstr "त्रुटि: अपडेट डाउनलोड करने में विफल"
+
+msgid "Error: Failed to install update"
+msgstr "त्रुटि: अपडेट इंस्टॉल करने में विफल"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "त्रुटि: अपडेट विफल रहा। विवरण के लिए एनवीडीए लॉग जांचें।"
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "अपडेट सफलतापूर्वक इंस्टॉल हो गया! एनवीडीए को पुनरारंभ करने की आवश्यकता है।"
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "घड़ी को संस्करण {version} में अपडेट कर दिया गया है।\n"
+"\n"
+"अपडेट को प्रभावी बनाने के लिए एनवीडीए को पुनरारंभ करना होगा।\n"
+"\n"
+"क्या अब एनवीडीए पुनरारंभ करें?"
+
+msgid "Update Installed"
+msgstr "अपडेट इंस्टॉल हो गया"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "अपडेट विफल रहा क्योंकि फाइलें उपयोग में हैं।\n"
+"\n"
+"कृपया एनवीडीए को पुनरारंभ करें और तुरंत अपडेट करने का प्रयास करें,\n"
+"\n"
+"ऐड-ऑन सेटिंग्स खोले बिना।"
+
+msgid "Update Failed - Files Locked"
+msgstr "अपडेट विफल - फाइलें लॉक हैं"

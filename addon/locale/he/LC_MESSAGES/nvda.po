@@ -408,3 +408,71 @@ msgstr ""
 
 #~ msgid "Choose the type of timer &inputs before the alarm rings:"
 #~ msgstr "בחר את סוג ה&קלטים של הטיימר לפני צלצול השעון מעורר:"
+
+msgid "Update Available - Clock"
+msgstr "עדכון זמין - שעון"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "גרסה חדשה של שעון זמינה!\n"
+"\n"
+"גרסה נוכחית: {current}\n"
+"גרסה חדשה: {new}\n"
+"\n"
+"לחץ על 'הורד והתקן' לעדכון אוטומטי."
+
+msgid "Release: {}"
+msgstr "מהדורה: {}"
+
+msgid "&Download and Install"
+msgstr "&הורד והתקן"
+
+msgid "&Close"
+msgstr "&סגור"
+
+msgid "Downloading update... Please wait."
+msgstr "מוריד עדכון... אנא המתן."
+
+msgid "Error: Failed to download update"
+msgstr "שגיאה: הורדת העדכון נכשלה"
+
+msgid "Error: Failed to install update"
+msgstr "שגיאה: התקנת העדכון נכשله"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "שגיאה: העדכון נכשל. בדוק את יומן NVDA לפרטים."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "העדכון הותקן בהצלחה! יש להפעיל מחדש את NVDA."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "השעון עודכן לגרסה {version}.\n"
+"\n"
+"יש להפעיל מחדש את NVDA כדי שהעדכון ייכנס לתוקף.\n"
+"\n"
+"להפעיל מחדש את NVDA כעת?"
+
+msgid "Update Installed"
+msgstr "העדכון הותקן"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "העדכון נכשל מכיוון שקבצים נמצאים בשימוש.\n"
+"\n"
+"אנא הפעל מחדש את NVDA ונסה לעדכן מיד,\n"
+"\n"
+"מבלי לפתוח את הגדרות התוסף."
+
+msgid "Update Failed - Files Locked"
+msgstr "העדכון נכשל - קבצים נעולים"

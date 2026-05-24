@@ -375,3 +375,71 @@ msgstr ""
 "седмицата, текущата година и оставащите дни преди края на годината.\n"
 "За други инструкции задействайте бутона \"Помощ за добавката\" в мениджъра "
 "на добавките."
+
+msgid "Update Available - Clock"
+msgstr "Налично е обновление - Часовник"
+
+msgid "A new version of Clock is available!\n"
+"\n"
+"Current version: {current}\n"
+"New version: {new}\n"
+"\n"
+"Click 'Download and Install' to update automatically."
+msgstr "Налична е нова версия на Часовник!\n"
+"\n"
+"Текуща версия: {current}\n"
+"Нова версия: {new}\n"
+"\n"
+"Натиснете 'Изтегляне и инсталиране' за автоматично обновяване."
+
+msgid "Release: {}"
+msgstr "Релиз: {}"
+
+msgid "&Download and Install"
+msgstr "&Изтегляне и инсталиране"
+
+msgid "&Close"
+msgstr "&Затвори"
+
+msgid "Downloading update... Please wait."
+msgstr "Изтегляне на обновлението... Моля, изчакайте."
+
+msgid "Error: Failed to download update"
+msgstr "Грешка: Неуспешно изтегляне на обновлението"
+
+msgid "Error: Failed to install update"
+msgstr "Грешка: Неуспешно инсталиране на обновлението"
+
+msgid "Error: Update failed. Check NVDA log for details."
+msgstr "Грешка: Обновяването бе неуспешно. Проверете лога на NVDA за подробности."
+
+msgid "Update installed successfully! NVDA needs to restart."
+msgstr "Обновлението бе инсталирано успешно! NVDA трябва да се рестартира."
+
+msgid "Clock has been updated to version {version}.\n"
+"\n"
+"NVDA must be restarted for the update to take effect.\n"
+"\n"
+"Restart NVDA now?"
+msgstr "Часовник бе обновен до версия {version}.\n"
+"\n"
+"NVDA трябва да се рестартира, за да влязат промените в сила.\n"
+"\n"
+"Рестартиране на NVDA сега?"
+
+msgid "Update Installed"
+msgstr "Обновлението е инсталирано"
+
+msgid "Update failed because files are in use.\n"
+"\n"
+"Please RESTART NVDA and try updating immediately,\n"
+"\n"
+"WITHOUT opening the add-on settings."
+msgstr "Обновяването бе неуспешно, тъй като файловете се използват.\n"
+"\n"
+"Рестартирайте NVDA и опитайте да обновите веднага,\n"
+"\n"
+"БЕЗ да отваряте настройките на добавката."
+
+msgid "Update Failed - Files Locked"
+msgstr "Обновяването е неуспешно - заключени файлове"
