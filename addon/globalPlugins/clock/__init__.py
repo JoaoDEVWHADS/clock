@@ -328,7 +328,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# Translators: Message presented in input help mode.
 			"Clock and calendar layer commands. After pressing this keystroke, press H for additional help."
 		),
-		gesture="kb:NVDA+shift+f12"
+		gesture="kb:NVDA+alt+shift+f12"
 	)
 	def script_clockLayerCommands(self, gesture):
 		curMode = speech.getState().speechMode
