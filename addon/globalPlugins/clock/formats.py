@@ -105,6 +105,9 @@ timeFormats = (
     "$$H $$mm $$ss",
     "$$HH $$mm $$ss",
 	"$$H:$$m",
+	"$$H'h'$$mm",
+	"$$H'h'$$mm'min'",
+	"$$H'h'$$mm'm'$$ss's'",
 )
 
 timeDisplayFormats = [(
@@ -124,7 +127,14 @@ dateFormats = (
 	"dd-MM-yyyy",
 	"MM-dd-yyyy",
 	"MM/dd/yyyy",
-	"dd/MM/yyyy"
+	"dd/MM/yyyy",
+	"dddd, d 'de' MMMM 'de' yyyy",
+	"dddd, dd 'de' MMMM 'de' yyyy",
+	"d 'de' MMMM 'de' yyyy",
+	"dddd, d MMMM yyyy",
+	"d MMMM yyyy",
+	"dd/MM/yy",
+	"MMMM yyyy"
 )
 
 def safeGetTimeFormatEx(locale, flags, timeObj, fmt):
