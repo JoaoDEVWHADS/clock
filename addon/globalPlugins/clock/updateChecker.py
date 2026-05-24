@@ -33,7 +33,7 @@ addonHandler.initTranslation()
 
 GITHUB_API_URL = "https://api.github.com/repos/JoaoDEVWHADS/clock/releases/latest"
 USER_AGENT = "NVDA-Clock-UpdateChecker/1.0"
-ADDON_NAME = "clock"
+ADDON_NAME = "clock-custom"
 ADDON_FRIENDLY_NAME = "Clock"
 
 try:
